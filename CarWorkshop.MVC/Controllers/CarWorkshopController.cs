@@ -70,7 +70,7 @@ namespace CarWorkshop.MVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [Authorize(Roles = "Owner")]
+        [Authorize(Roles = "Owner")]// If user is not in role Owner, he will be redirected to AccessDenied page
         public IActionResult Create()
         {
             return View();
