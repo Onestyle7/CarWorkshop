@@ -62,7 +62,7 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/toastr.js/toastr.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @if(notification != null)
+    @if(notification != null)//this is the notification that I want to show by toastr package
     {
         <script>
             toastr["@notification.Type"]("@notification.Message")
