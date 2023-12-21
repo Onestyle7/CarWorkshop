@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarWorkshop.Infrastructure"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWorkshop.DomainTests1", "CarWorkshop.DomainTests1\CarWorkshop.DomainTests1.csproj", "{8A467FEB-2AA0-483A-8A41-2C856B0E779E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWorkshop.ApplicationTests", "CarWorkshop.ApplicationTests\CarWorkshop.ApplicationTests.csproj", "{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AEF9649A-640F-4EF0-A30A-2989CD5600B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,17 @@ Global
 		{8A467FEB-2AA0-483A-8A41-2C856B0E779E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A467FEB-2AA0-483A-8A41-2C856B0E779E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A467FEB-2AA0-483A-8A41-2C856B0E779E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A467FEB-2AA0-483A-8A41-2C856B0E779E} = {AEF9649A-640F-4EF0-A30A-2989CD5600B1}
+		{52E0BEB2-1BF2-4813-8CF7-B9D6A7C7D6CF} = {AEF9649A-640F-4EF0-A30A-2989CD5600B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6705D1D-FE9A-4D90-B2BB-F8C672944A5C}
